@@ -38,7 +38,6 @@ var shuffle = function(array) {
 var shuffleDeck = function() {
 	var shuffledDeck = shuffle(createDeck(suits, values));
 	console.log(shuffledDeck);
-
 	return shuffledDeck;
 }
 
